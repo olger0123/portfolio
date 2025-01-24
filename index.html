@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Olger Mercado</title>
+</head>
+<body>
+    <!--HEADER DESING-->
+    <header class="header">
+        <a href="#" class="logo">portafolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#diplomas">Diplomas</a>
+            <a href="#portfolio">Portafolio</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+
+    </header>
+
+    <!--HOME SECTION DESING-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hola, soy</h3>
+            <h1>Olger Mercado</h1>
+            <h3>y trabajo como <span>Data analyst</span></h3>
+            <p>Me dedico a explorar el potencial de los datos para resolver problemas y generar soluciones prácticas. Mi pasión está en descubrir las historias ocultas en los datos. Aplicando herramientas avanzadas como Python, SQL, Excel, Tableau y Power BI,  </p>
+            <div class="social-media">
+                <a href="https://github.com/olger0123"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/olger-mercado-4799ab24a/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                <a href="https://wa.me/qr/S3E7P6CVOIIVH1 "><i class="fa-brands fa-whatsapp"></i></a> 
+            </div>
+            <a href="#" class="btn">Dowload CV</a>
+        </div>
+        <div class="home-img">
+            <img src="imagenes/imagen 1x1 definitiva.png" alt="">
+        </div>
+    </section>
+
+    <!--ABOUT SECTION DESIGN-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="imagenes/imagen sin fondo.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="headding">Acerca de <span>Mí</span></h2>
+            <h3>Data Analyst</h3>
+            <p>Soy estudiante de Física en la Universidad de Antioquia, con una pasión por el análisis de datos y la búsqueda de insights que impulsen decisiones estratégicas. Mi interés principal radica en el campo del Business Intelligence y en cómo las tecnologías modernas pueden transformar la forma en que entendemos y utilizamos los datos.
+
+            Siempre estoy en constante aprendizaje, explorando nuevas herramientas y metodologías que me permitan optimizar el análisis y la visualización de datos.
+            </p>
+            <a href="#" class="btn">Leer más</a>
+        </div>
+    </section>
+
+    <!--skills section-->
+    <section class="skills" id="skills">
+        <h2 class="h"> Mis <span>Habilidades</span></h2>
+        <div class="containersk">
+            <div class="row" id="skillsContainer">
+                <div class="bar">
+                    <div class="info">
+                        <img src="imagenes/python-logo-only.svg" class="imgSK">
+                        <span class="span1">Python</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="imagenes/sql-database-generic-svgrepo-com.svg" class="imgSK">
+                        <span class="span1">SQL</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="imagenes/Microsoft_Office_Excel_(2019–present).svg.png" class="imgSK">
+                        <span class="span1">Excel</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="imagenes/New_Power_BI_Logo.svg.png " class="imgSK">
+                        <span class="span1">Power BI</span>
+                    </div>
+                </div>
+
+                <div class="bar">
+                    <div class="info">
+                        <img src="imagenes/tableau-icon-svgrepo-com.svg " class="imgSK">
+                        <span class="span1">Tableau</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--diplomas section-->
+    <section class="diplomas" id="diplomas">
+
+        <div class="container swiper">
+            <h2 class="h">Mis <span>Diplomas</span></h2>
+            <div class="card-wrapper">
+                <ul class="card-list swiper-wrapper">
+                    <li class="card-item swiper-slide">
+                        <a href="pdf/diploma-excel-intro.pdf" class="card-link">
+                            <img src="imagenes/introduccion a excel.jpeg" alt="diploma-excel-intro" class="card-image">
+                            <p class="badge introduccion">INTRODUCCION A EXCEL</p>
+                            <h2 class="card-title">Certificado de Platzi en Introducción a Excel.</h2>
+                            <button  class=" card-button material-symbols-outlined"> arrow_forward</button>
+                        <a> 
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="pdf/diploma-Agile-Explorer.pdf" class="card-link">
+                            <img src="imagenes/agile explorer.jpeg" alt="diploma-Agile-Explorer" class="card-image">
+                            <p class="badge agile">Agile explorer</p>
+                            <h2 class="card-title">Certificado de IBM en metodologías ágiles.</h2>
+                            <button  class=" card-button material-symbols-outlined"> arrow_forward</button>
+                        <a> 
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="pdf/diploma-analisis de datos nivel1.pdf" class="card-link">
+                            <img src="imagenes/analisis de datos.jpeg" alt="diploma-analisis de datos" class="card-image">
+                            <p class="badge analisis">analisis de datos</p>
+                            <h2 class="card-title">Diplomado de la UdeA en análisis de datos.</h2>
+                            <button  class=" card-button material-symbols-outlined"> arrow_forward</button>
+                        <a> 
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="pdf/diploma-excel-avanzado.pdf" class="card-link">
+                            <img src="imagenes/excel avanzado.jpeg" alt="diploma-excel-avanzado" class="card-image">
+                            <p class="badge avanzado">EXCEL avanzado</p>
+                            <h2 class="card-title">Certificado de Excel avanzado.</h2>
+                            <button  class=" card-button material-symbols-outlined"> arrow_forward</button>
+                        <a> 
+                    </li>
+                </ul>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-slide-button swiper-button-prev"></div>
+                <div class="swiper-slide-button swiper-button-next"></div>
+            </div>
+        </div>
+        
+
+    </section>
+
+    <!-- portafolio section-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="headding">Ultimo <span>Proyecto</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box Energia1">
+                <img src="imagenes/imagen_ER.jpg" alt="">
+
+                  <div class="portfolio-layer">
+                        <h4>Energia</h4>
+                        <p>Análisis de producción de energía renovable.</p>
+                        <a href="https://energias-proyecto1.streamlit.app/" class="a1"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    
+
+               </div>
+            </div>
+            <div class="portfolio-box Energia2">
+                <img src="imagenes/imagen_ER.jpg" alt="">
+
+                  <div class="portfolio-layer">
+                        <h4>Energia</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur.</p>
+                        <a href="https://colab.research.google.com/drive/1C1mui9yi8Lm4zGjoxrJcz63gAgYCbpg3?usp=sharing" class="a1"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    
+
+               </div>
+            </div>
+            
+            
+        </div>
+    </section>
+
+
+    <!--- contacto-->
+    <section class="contact" id = "contact">
+        <h2 class="headding"><span>Mi</span> Contacto</h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Nombre completo">
+                <input type="email" placeholder="Correo electrónico">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Numero de telefono">
+                <input type="text" placeholder="asunto del correo">
+
+            </div>
+            <textarea name="" id="" cols="30" placeholder="Deja un mensaje"></textarea>
+            <input type="submit" value="Enviar Mensaje" class="btn">
+        </form>
+
+    </section>
+
+    <!--Footer-->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &COPY;2025 by @olgermercado | Derechos Reservados</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    
+    
+
+</body>
+</html>
